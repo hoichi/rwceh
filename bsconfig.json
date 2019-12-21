@@ -1,0 +1,22 @@
+{
+  "name": "RWCEH",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "bsc-flags": [ "-bs-super-errors", "-bs-no-version-header" ],
+  "ppx-flags": [ "decco/ppx" ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": false,
+  "bs-dependencies": [ "bs-fetch", "decco", "reason-react" ],
+  "refmt": 3
+}
