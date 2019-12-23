@@ -1,7 +1,9 @@
 .DS_Store
 .merlin
 .bsb.lock
+.idea
 npm-debug.log
 /lib/bs/
+*.bs.js
 /node_modules/
 /bundleOutput/
